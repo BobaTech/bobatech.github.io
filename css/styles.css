@@ -44,6 +44,43 @@
     cursor:pointer;
 }
 
+#cover{
+    display: block;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to top, #ff9933 50%, #000 50%);
+}
+
+#cover.slide{
+    display: block;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to top, #ff9933 50%, #000 50%);
+    animation-name: coverslide;
+}
+
+@-webkit-keyframes coverslide{
+	0% { height: 0; }
+    50% { height: 50%; }
+    100% { height:100%; }
+}
+
+@-moz-keyframes coverslide{
+	0% { height: 0; }
+    50% { height: 50%; }
+    100% { height:100%; }
+}
+
+@-o-keyframes coverslide{
+	0% { height: 0; }
+    50% { height: 50%; }
+    100% { height:100%; }
+}
+
+@keyframes coverslide{
+	0% { height: 0; }
+    50% { height: 50%; }
+    100% { height:100%; }
+}
+
 .listLinks {
 	list-style-type: square;
 }
