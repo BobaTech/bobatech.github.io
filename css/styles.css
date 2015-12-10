@@ -19,20 +19,28 @@
 }
 
 .menu li {
+    width:25%;
     float: left;
+    text-align: center;
 }
 
 .menu li a {
+    width:80%;
     display: inline-block;
     list-style-type: none;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.5rem 11%;
     text-decoration: none;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to top, #ff9933 50%, #333 50%);
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 1s;
 }
 
 .menu li a:hover {
-    background-color: #111;
+    background-position: 0 100%;
 }
 
 .listLinks {

@@ -18,10 +18,10 @@
 <body>
     <div class = "top-menu">
         <ul class = "menu" style="list-style: none;">
-    		<li><a href="#home">Home</a></li>
-            <li><a class="active" href="#news">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About Us</a></li>
+    		<li><a href="#home" onclick = "switchTab(this)">Home</a></li>
+            <li><a href="#projects" onclick = "switchTab(this)">Projects</a></li>
+            <li><a href="#about" onclick = "switchTab(this)">About Us</a></li>
+            <li><a href="#contact" onclick = "switchTab(this)">Contact</a></li>
     	</ul>
 	</div>
 	<div class="section top">
@@ -42,37 +42,53 @@
 	</div>
 	<div class="section mid">
 		<div class="container">
-			<h3>Projects:</h3>
-			<div class="row">
-				<div class="u-max-full-width">
-					
-				</div>
-				<div class="u-max-full-width">
-					
-				</div>
-				<div class="u-max-full-width">
-					<a class="noDec" href="http://uckk8074e3f8.cakesofwrath.koding.io/ClimateChange.js/index.html"><h5>ClimateChange.js</h5>
-					<img class="scap" src="img/scapCC.PNG"></a>
-					<p>Built in 48 hours for the 2014 Koding Hackathon.</p>
-					<p>Displays temperature anomaly data from 1850 to 2013.</p>
-					<p>Somehow, this crap won us top 20 internationally.</p>
-					<ul class="listLinks">
-						<li><a class="noDec" href="www.d3js.org">d3.js</a></li>
-						<li><a class="noDec" href="www.planetaryjs.com">planetary.js</a></li>
-						<li><a class="noDec" href="http://coffeescript.org/">Way too much coffee.</a></li>
-					</ul>
-				</div>
-				<div class="u-max-full-width">
-					<a class="noDec" href="http://ukkk5e0a1954.kittykatty.koding.io/2trainz/index.html"><h5>2Trainz</h5>
-					<img class="scap" src="img/2trainz.jpg"></a>
-					<p>Small project we built over the summer.</p>
-					<p>This won us a Netflix subscription!</p>
-					<ul class="listLinks">
-						<li><a class="noDec" href="http://expressjs.com/en/index.html">Express.js</a></li>
-						<li><a class="noDec" href="http://leafletjs.com/">Leaflet.js</a></li>
-					</ul>
-				</div>
+		    <div id = "home" style = "display:block">
+		        <h3>Welcome to KuaiWanTech</h3>
+		        
+		    </div>
+		    <div id = "projects" style = "display:block">
+			    <h3>Projects:</h3>
+    			<div class="row">
+    				<div class="u-max-full-width">
+    					
+    				</div>
+    				<div class="u-max-full-width">
+    					
+    				</div>
+    				<div class="u-max-full-width">
+    					<a class="noDec" href="http://uckk8074e3f8.cakesofwrath.koding.io/ClimateChange.js/index.html"><h5>ClimateChange.js</h5>
+    					<img class="scap" src="img/scapCC.PNG"></a>
+    					<p>Built in 48 hours for the 2014 Koding Hackathon.</p>
+    					<p>Displays temperature anomaly data from 1850 to 2013.</p>
+    					<p>Somehow, this crap won us top 20 internationally.</p>
+    					<ul class="listLinks">
+    						<li><a class="noDec" href="www.d3js.org">d3.js</a></li>
+    						<li><a class="noDec" href="www.planetaryjs.com">planetary.js</a></li>
+    						<li><a class="noDec" href="http://coffeescript.org/">Way too much coffee.</a></li>
+    					</ul>
+    				</div>
+    				<div class="u-max-full-width">
+    					<a class="noDec" href="http://ukkk5e0a1954.kittykatty.koding.io/2trainz/index.html"><h5>2Trainz</h5>
+    					<img class="scap" src="img/2trainz.jpg"></a>
+    					<p>Small project we built over the summer.</p>
+    					<p>This won us a Netflix subscription!</p>
+    					<ul class="listLinks">
+    						<li><a class="noDec" href="http://expressjs.com/en/index.html">Express.js</a></li>
+    						<li><a class="noDec" href="http://leafletjs.com/">Leaflet.js</a></li>
+    					</ul>
+    				</div>
+    			</div>
 			</div>
+		    <div id = "about" style = "display:block">
+		        <h3>About Us</h3>
+		        <h4 align="left">Alan:</h4>
+		        <p align="left">To be added.</p>
+		        <H4 align="left">Kevin:</H4>
+		        <p align="left">To be added.</p>
+		    </div>
+		    <div id = "contact" style = "display:block">
+		        
+		    </div>
 		</div>
 	</div>
 	<div class="footer">
@@ -81,5 +97,6 @@
 		</a>
 	</div>
 	<script src="js/main.js"></script>
+	<script src="js/tab.js"></script>
 </body>
 </html>
