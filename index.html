@@ -18,10 +18,10 @@
 <body>
     <div class = "top-menu">
         <ul class = "menu" style="list-style: none;">
-    		<li><a href="#home" onclick = "switchTab(this)">Home</a></li>
-            <li><a href="#projects" onclick = "switchTab(this)">Projects</a></li>
-            <li><a href="#about" onclick = "switchTab(this)">About Us</a></li>
-            <li><a href="#contact" onclick = "switchTab(this)">Contact</a></li>
+    		<li><a onclick = "switchTab('home')">Home</a></li>
+            <li><a onclick = "switchTab('projects')">Projects</a></li>
+            <li><a onclick = "switchTab('about')">About Us</a></li>
+            <li><a onclick = "switchTab('contact')">Contact</a></li>
     	</ul>
 	</div>
 	<div class="section top">
@@ -46,7 +46,7 @@
 		        <h3>Welcome to KuaiWanTech</h3>
 		        
 		    </div>
-		    <div id = "projects" style = "display:block">
+		    <div id = "projects" style = "display:none">
 			    <h3>Projects:</h3>
     			<div class="row">
     				<div class="u-max-full-width">
@@ -79,14 +79,14 @@
     				</div>
     			</div>
 			</div>
-		    <div id = "about" style = "display:block">
+		    <div id = "about" style = "display:none">
 		        <h3>About Us</h3>
 		        <h4 align="left">Alan:</h4>
 		        <p align="left">To be added.</p>
 		        <H4 align="left">Kevin:</H4>
 		        <p align="left">To be added.</p>
 		    </div>
-		    <div id = "contact" style = "display:block">
+		    <div id = "contact" style = "display:none">
 		        
 		    </div>
 		</div>
