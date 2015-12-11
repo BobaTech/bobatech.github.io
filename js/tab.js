@@ -5,5 +5,6 @@ function switchTab(obj){
             document.getElementById(pages[i]).style.display = "none";
         }
     }
-    document.getElementById(obj).style.display = 'block';
+    obj = '#' + obj;
+    $(obj).fadeIn();
 }
