@@ -6,7 +6,7 @@
 .top-menu {
     top: 0;
     height: 5rem;
-    background-color: #333;
+    background-color: #003399;
     z-index: 2;
     width:100%;
     position: fixed;
@@ -65,7 +65,7 @@
 }
 
 .top {
-	background-color: #666666;
+	background-color: #0099ff;
 	color:#fff;
 	position:relative;
 	height:30rem;
