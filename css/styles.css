@@ -33,7 +33,7 @@
     padding: 1.5rem 11%;
     text-decoration: none;
     background-size: 100% 200%;
-    background-image: linear-gradient(to top, #ff9933 50%, #333 50%);
+    background-image: linear-gradient(to top, #0000cc 50%, #333 50%);
     -webkit-transition: background-position .5s;
     -moz-transition: background-position .5s;
     transition: background-position .5s;
